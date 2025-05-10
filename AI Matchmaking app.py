@@ -4,7 +4,7 @@ Constants
 
 DATA_URL = "https://raw.githubusercontent.com/amankharwal/Website-data/master/imdb_top_1000.csv" POSTER_PLACEHOLDER = "https://via.placeholder.com/150x225?text=No+Poster" MIN_PASSWORD_LENGTH = 6 XP_PER_RATING = 15 XP_PER_WATCH = 10 XP_LEVEL_THRESHOLD = 100
 
-Initialize users.json if it doesn't exist
+Initialize users.json if it doesnot exist
 
 if not os.path.exists("users.json"): with open("users.json", "w") as f: json.dump({}, f)
 
