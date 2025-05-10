@@ -1,4 +1,19 @@
-import streamlit as st import pandas as pd import json from sklearn.feature_extraction.text import TfidfVectorizer from sklearn.metrics.pairwise import cosine_similarity import os import requests from PIL import Image from io import BytesIO from datetime import datetime import time
+import streamlit as st 
+import pandas as pd 
+import json 
+from sklearn.feature_extraction.text 
+import TfidfVectorizer 
+from sklearn.metrics.pairwise 
+import cosine_similarity 
+import os 
+import requests 
+from PIL 
+import Image 
+from io 
+import BytesIO 
+from datetime 
+import datetime 
+import time
 
 Constants
 
